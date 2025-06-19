@@ -19,18 +19,14 @@ A lightweight Rust tool that runs in the background and listens for a hotkey (de
    - Navigate to the project directory
 
 3. Build the project:
-cargo build --release
-
-markdown
-Copy
-Edit
+   ```
+   cargo build --release
+   ```
 
 4. Run the executable:
-.\target\release\password-keygen.exe
-
-markdown
-Copy
-Edit
+   ```
+   .\target\release\password-keygen.exe
+   ```
 
 5. Press **Numpad 8** to generate a password and automatically copy it to your clipboard.
 
@@ -38,10 +34,10 @@ Edit
 
 - Password length is fixed at 24 characters
 - Charset includes:
-- Uppercase A–Z
-- Lowercase a–z
-- Digits 0–9
-- Symbols like `!@#$%^&*()_+-=[]{}|;:',.<>?/`
+  - Uppercase A–Z
+  - Lowercase a–z
+  - Digits 0–9
+  - Symbols like `!@#$%^&*()_+-=[]{}|;:',.<>?/`
 
 You can customize the charset or keybind in the source code.
 
